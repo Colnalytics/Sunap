@@ -1,0 +1,109 @@
+\documentclass[11pt,twoside]{article}
+\usepackage[spanish, es-tabla]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}
+\usepackage{booktabs}     % tablas 
+\usepackage{tabulary}     % tablas
+\usepackage{graphicx}      % poner imagenes 
+\usepackage{float}         % para fijar las imagenes con h y H
+\usepackage{fancyhdr}
+% Margins
+\topmargin 0.02cm
+\headheight 0.02cm
+\textwidth 15.50cm
+\oddsidemargin .0in
+\evensidemargin .0in
+
+\date{}
+
+\begin{document}
+	
+	\fancypagestyle{firststyle}
+	{
+		\fancyhead[R]{ \tiny{Facultad de Ciencias \\
+				Universidad Nacional de Colombia, sede Medellín\\
+				2019}}
+		\fancyhead[L]{}
+		\fancyfoot[LO,RE]{}
+		\fancyfoot[LE,RO]{ \vspace{10pt}\thepage}
+		\renewcommand{\headrulewidth}{0pt}
+		\renewcommand{\footrulewidth}{0pt}
+	}
+	
+	\thispagestyle{firststyle}
+	\begin{center}
+		\Large{{\bf SUNAP\\
+				\vspace{20pt}   APP DE ENERGíA FOTOVOLTAÍCA EN COLOMBIA\\ 
+				\vspace{10pt}}}
+	\end{center}
+	
+	\begin{center}
+	Heber Esteban Bermúdez			\footnote{\footnotesize{ hebermudezg@unal.edu.co}}
+	Karen Andrea Amaya M.	\footnote{\footnotesize{kaamayam@unal.edu.co}}
+	
+	\end{center}
+			
+	
+	
+	
+	
+	%***----------RESUMEN y PALABRAS CLAVE----------------------------------------
+	
+	\begin{abstract}
+	
+	\end{abstract}
+	
+	
+	
+	%***-----------INTRODCUCCION-----------------------------------------------
+	\section{Introducción}
+Sunap consiste en una aplicación que calcula, según la instalación de paneles solares, qué tanto se reduce el costo del servicio de energía en un lugar determinado. Esto de acuerdo con su ubicación geográfica, su estrato socioeconómico, nombre de la empresa de energía que presta el servicio, el tipo y la cantidad de paneles. También brinda un asesoramiento sobre los
+
+... 
+
+
+
+	\section{Definiciones}
+	\section{Metodología}
+	\subsection{Análisis descriptivo}
+	
+	
+	
+	
+	% modelamiento estadistico ----------------------------
+	
+	\subsection{Modelamiento estadístico}
+	\subsubsection{Modelo de regresion lineal múltiple}
+\begin{equation}
+	{ R }^{ 2 }_{pseudo}=1-\frac { \sum _{ i=1 }^{ n }{ { ({ y }_{ i }-{ \hat { y }  }_{ i }) }^{ 2 } }  }{ \sum _{ i=1 }^{ n }{ { ({ y }_{ i }-{ \bar { y }  }) }^{ 2 } }  }  = 0.6532582
+	\end{equation}
+	
+	\subsubsection{Modelo usando metodología Gamlss}
+	\subsection{Diagnóstico del Modelo}
+	\section{Conclusiones}
+	
+	
+	\section{Aplicación web}
+	\section{Referencias}
+	\begin{description}
+		
+		
+		\item Rodríguez Murcia, H. (2008). Desarrollo de la energía solar 
+		en Colombia y sus perspectivas. Revista de Ingeniería, (28), 83-89. 
+
+		
+		\item[Tasa de cambio del peso colombiano (TRM)]  recuperado de http://www.banrep.gov.co/es/trm
+		
+		
+		\item[Población Económicamente Activa]
+		recupeado de:\\
+		http://www.icesi.edu.co/cienfi/images/stories/pdf/glosario/poblacion-economicamente-activa.pdf (2018)
+		
+		
+		\item[RStudio Team:] (2018).
+		Integrated Development for R. RStudio, Inc., Boston, MA URL http://www.rstudio.com/.  
+		
+		
+	\end{description}
+	
+\end{document}

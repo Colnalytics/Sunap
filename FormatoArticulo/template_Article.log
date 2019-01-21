@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  21 JAN 2019 16:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  21 JAN 2019 18:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -237,16 +237,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 41.
 
-Overfull \hbox (41.49112pt too wide) in paragraph at lines 87--88
-[]\OT1/cmr/m/n/10.95 recuperado de http://www.banrep.gov.co/es/trm 
- []
-
-
-Overfull \hbox (5.56032pt too wide) in paragraph at lines 91--93
-\OT1/cmr/m/n/10.95 http://www.icesi.edu.co/cienfi/images/stories/pdf/glosario/p
-oblacion-economicamente-
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (0.56917pt): 
  Make it at least 20.2667pt.
@@ -256,18 +246,28 @@ Package Fancyhdr Warning: \headheight is too small (0.56917pt):
 [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
+Overfull \hbox (41.49112pt too wide) in paragraph at lines 95--96
+[]\OT1/cmr/m/n/10.95 recuperado de http://www.banrep.gov.co/es/trm 
+ []
+
+
+Overfull \hbox (5.56032pt too wide) in paragraph at lines 99--101
+\OT1/cmr/m/n/10.95 http://www.icesi.edu.co/cienfi/images/stories/pdf/glosario/p
+oblacion-economicamente-
+ []
+
 [2] (./template_Article.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 2709 strings out of 492649
- 37500 string characters out of 6129622
+ 2710 strings out of 492649
+ 37508 string characters out of 6129622
  112208 words of memory out of 5000000
- 6561 multiletter control sequences out of 15000+600000
+ 6562 multiletter control sequences out of 15000+600000
  9117 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,43p,283b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,11n,43p,411b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pf
 b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
@@ -278,7 +278,7 @@ sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
 cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
 /texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/te
 xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on template_Article.pdf (2 pages, 114976 bytes).
+Output written on template_Article.pdf (2 pages, 115336 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream
